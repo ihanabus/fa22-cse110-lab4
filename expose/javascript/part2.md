@@ -50,3 +50,75 @@ Since elements can be added and reassigned, 'discounted.push(discountedPrice)' d
 'discounted' is then an array containing the halved prices.  
 
 Q12  
+A. student.name  
+B. student["Grad Year"]  
+C. student.greeting()  
+D. student["Favorite Teacher"].name  
+E. student.courseLoad[0]  
+
+Q13  
+A.  
+'32'  
+The number 2 converts to a string and then string concatenation occurs.  
+
+B.  
+1  
+The string '3' converts to a number so that subtraction can occur. 3 - 2 = 1.  
+
+C.  
+3  
+null converts to 0 and 3 + 0 = 3.  
+
+D.  
+'3null'  
+null becomes the string 'null' and then string concatenation occurs.  
+
+E.  
+4  
+The numeric value of true is 1. 1 + 3 = 4.  
+
+F.  
+0  
+Both false and null have numeric values of 0. 0 + 0 = 0.  
+
+G.  
+'3undefined'  
+The undefined value converts to the string 'undefined' and string concatenation occurs.  
+
+H.  
+NaN  
+'3' is able to convert to the numeric value 3. undefined, however, does not convert to a number and only converts to NaN. 3 - NaN causes an error.  
+
+Q14  
+A.  
+true  
+'2' converts to the number 2 and 2 > 1 is true.  
+
+B.  
+false  
+String comparison rather than number comparison occurs. In lexicographical order, '2' comes later than '12,' or '2' is greater than '12,' so '2' < '12' is false.  
+
+C.  
+true  
+'2' converts to the number 2 and 2 == 2 is true.  
+
+D.  
+false  
+The operator '===' checks for strict equality without type conversion. Since 2 and '2' are different types, the comparison immediately returns false.  
+
+E.  
+false  
+true has the numeric value 1 and 1 == 2 is false.  
+
+F.  
+true  
+Boolean(2) translates to true because 2 is a non-zero value. true === true is then true.  
+
+Q15  
+The '==' operator enables type conversion so that the operands may have the same type before comparison.  
+The '===' operator is a strict equality comparison that checks if the datatypes of the operands are the same before performing an equality operation. If the datatypes are not the same, false is returned. If the datatypes are the same, then an equality operation is applied.  
+
+Q16  
+See js file.  
+
+Q17  
