@@ -17,3 +17,4 @@ Line 7 attempts to reassign 'result' when it is a constant variable.
 
 Q6  
 Line 13 is not reached due to the error at line 7.  
+Even if line 13 is reached, the result would be "ReferenceError: result is not defined" because a constant is a block-local variable and is not visible outside of the if branch.  
