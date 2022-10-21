@@ -122,3 +122,12 @@ Q16
 See js file.  
 
 Q17  
+The returned array is [2, 4, 6].  
+During each iteration of the for loop, the doSomething() function is called through the callback reference. This reference is established when modifyArray() passes in the doSomething() function as a parameter.  
+
+Q18  
+See js file.  
+
+Q19  
+The code outputs numbers in the order of 1, 4, 3, 2.  
+
